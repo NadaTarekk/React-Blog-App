@@ -17,10 +17,7 @@ function App() {
   const [isLoading, setIsLoading] = useState(true)
   const URI = ' http://localhost:3500/posts'
 
-  useEffect(()=>{
-    console.log('app')
-  },[])
-
+ 
 
   useEffect(() => {
     
