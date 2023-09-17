@@ -14,6 +14,7 @@ function App() {
   const [posts, setPosts] = useState([])
   const [fetchError, setFetchError] = useState(false)
   const [isLoading, setIsLoading] = useState(true)
+  const [search, setSearch] = useState('')
   const URI = 'http://localhost:3500/posts'
 
 
@@ -42,10 +43,16 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <Navbar />
+      <Navbar 
+      search={search}
+      setSearch={setSearch}
+      />
       <main>
         <Routes>
-          <Route path="/" element={<Home posts={posts} isLoading={isLoading} fetchError={fetchError} />} />
+          <Route path="/" element={<Home 
+          posts={posts.filter(post=>(post.title).includes(search) || (post.body).includes(search))} 
+          isLoading={isLoading} 
+          fetchError={fetchError} />} />
           
           <Route path="/post" element={<AddPost 
           posts={posts}

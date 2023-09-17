@@ -1,8 +1,9 @@
+import { useEffect } from "react"
 import Post from "./Post"
 
 function Home({ posts, isLoading, fetchError }) {
    // const reversedPosts = [...posts].reverse();
-    
+   
 // add no posts
     return (
         <>
