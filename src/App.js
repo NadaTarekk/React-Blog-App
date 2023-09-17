@@ -48,7 +48,10 @@ function App() {
           posts={posts}
           setPosts={setPosts}
           />} />
-          <Route path="/post/:id" element={<PostDetail  posts={posts} />} />
+          <Route path="/post/:id" element={<PostDetail  
+          posts={posts} 
+          setPosts={setPosts}
+          />} />
         </Routes>
       </main>
       <Footer />

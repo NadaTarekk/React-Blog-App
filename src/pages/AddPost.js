@@ -11,10 +11,10 @@ function AddPost({posts, setPosts}) {
   const handleSubmit = async (e)=>{
     e.preventDefault()
     const newPost= {title: newTitle, body: newBody, datetime:"2023" }
-    const newPosts=[...posts, newPost]
-    setPosts(newPosts)
     try{
     const response = await axios.post('http://localhost:3500/posts', newPost)
+    const newPosts=[...posts, response.data]
+     setPosts(newPosts)
     navigate('/')
 
     }
