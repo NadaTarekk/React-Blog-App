@@ -8,6 +8,8 @@ import PostDetail from "./pages/home/PostDetail"
 import { useEffect, useState } from "react";
 import axios from "axios";
 import EditPost from "./pages/home/EditPost";
+import About from "./pages/About";
+
 function App() {
   const [posts, setPosts] = useState([])
   const [fetchError, setFetchError] = useState(false)
@@ -43,7 +45,7 @@ function App() {
       <main>
         <Routes>
           <Route path="/" element={<Home posts={posts} isLoading={isLoading} fetchError={fetchError} />} />
-          <Route path="/about" element={<h1>about</h1>} />
+          <Route path="/about" element={<About />} />
           <Route path="/post" element={<AddPost 
           posts={posts}
           setPosts={setPosts}

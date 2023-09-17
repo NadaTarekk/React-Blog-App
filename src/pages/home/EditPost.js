@@ -37,7 +37,7 @@ function EditPost({ posts, setPosts }) {
                     value={editTitle}
                     onChange={(e) => setEditTitle(e.target.value)}
                     required
-                    placeholder="Add title"
+                    
                 />
                 <label htmlFor="post">Post:</label>
                 <textarea
@@ -45,7 +45,7 @@ function EditPost({ posts, setPosts }) {
                     value={editBody}
                     onChange={(e) => setEditBody(e.target.value)}
                     required
-                    placeholder="Add Body"
+                    
                 />
 
                 <button type="submit">Submit</button>
