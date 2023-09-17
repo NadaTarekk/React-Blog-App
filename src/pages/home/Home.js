@@ -1,6 +1,7 @@
 import Post from "./Post"
 
 function Home({ posts, isLoading, fetchError }) {
+    
 
     return (
         <>

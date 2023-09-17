@@ -34,6 +34,8 @@ function App() {
     setTimeout(() => fetchPosts(), 1500)
   }, [])
 
+  
+
   return (
     <div className="App">
       <Header />
@@ -42,7 +44,10 @@ function App() {
         <Routes>
           <Route path="/" element={<Home posts={posts} isLoading={isLoading} fetchError={fetchError} />} />
           <Route path="/about" element={<h1>about</h1>} />
-          <Route path="/post" element={<AddPost />} />
+          <Route path="/post" element={<AddPost 
+          posts={posts}
+          setPosts={setPosts}
+          />} />
           <Route path="/post/:id" element={<PostDetail  posts={posts} />} />
         </Routes>
       </main>

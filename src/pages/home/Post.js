@@ -1,7 +1,5 @@
 import { Link} from "react-router-dom"
 
-
-
 function Post({post}) {
     //do i need to use isLoading here?
 
