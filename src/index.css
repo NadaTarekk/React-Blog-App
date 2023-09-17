@@ -7,6 +7,7 @@
 }
 
 html {
+  color: rgb(9, 31, 73);
   font-size: 16px;
 }
 
@@ -28,7 +29,7 @@ body {
   align-items: center;
 } 
 .App {
-  background-color:rgb(160, 221, 217); 
+  background-color:rgb(176, 223, 219); 
   width: 100%;
   max-width: 800px;
   height: 100vh;
@@ -57,9 +58,29 @@ a{
 }
 
 .post{
+  border-radius: 5px;
   border: 2px solid rgb(89, 87, 116);;
   background-color: #efefef;
   margin: 7px;
   box-shadow: 0px 0px 15px gray;
   padding: 5px;
+}
+
+.nav{
+  padding: 5px;
+  width: 100%;
+  background-color: #efefef;
+  display: flex;
+justify-content: space-between;
+  align-items: center;
+  
+}
+
+.nav-link{
+  gap:6px;
+  display: flex;
+}
+
+.search{
+  width: 40%;
 }
