@@ -11,6 +11,7 @@ html {
 }
 
 body {
+  background-color: purple;
   min-height: 100vh;
   font-family: 'Open Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -20,13 +21,14 @@ body {
 }
 
 #root {
+  background-color: rgb(255, 255, 255);
   flex-grow: 1;
   display: flex;
   justify-content: center;
   align-items: center;
 } 
 .App {
-  
+  background-color:rgb(160, 221, 217); 
   width: 100%;
   max-width: 800px;
   height: 100vh;
@@ -36,4 +38,28 @@ body {
   align-items: center;
   border: 1px solid #333;
   box-shadow: 0px 0px 15px gray;
+}
+ 
+header{
+  color:bisque;
+  font-size: 39px;
+  width:100%;
+  background-color: rgb(89, 87, 116);
+}
+
+li {
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+  color:black
+}
+
+.post{
+  border: 2px solid rgb(89, 87, 116);;
+  background-color: #efefef;
+  margin: 7px;
+  box-shadow: 0px 0px 15px gray;
+  padding: 5px;
 }
