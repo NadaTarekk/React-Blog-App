@@ -1,5 +1,5 @@
-#This is a Reactjs Blog app, where you can ADD/EDIT/SEARCH/DELETE/VIEW your posts 
-
+# This is a Reactjs Blog app, where you can ADD/EDIT/SEARCH/DELETE/VIEW your posts 
+ 
 
 
 # Getting Started with Create React App
