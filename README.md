@@ -1,3 +1,7 @@
+#This is a Reactjs Blog app, where you can ADD/EDIT/SEARCH/DELETE/VIEW your posts 
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
