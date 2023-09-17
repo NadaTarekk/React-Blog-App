@@ -7,7 +7,7 @@ import Navbar from "./components/Navbar";
 import PostDetail from "./pages/home/PostDetail"
 import { useEffect, useState } from "react";
 import axios from "axios";
-
+import EditPost from "./pages/home/EditPost";
 function App() {
   const [posts, setPosts] = useState([])
   const [fetchError, setFetchError] = useState(false)
@@ -34,7 +34,7 @@ function App() {
     setTimeout(() => fetchPosts(), 1500)
   }, [])
 
-  
+  //add not found page 
 
   return (
     <div className="App">
@@ -52,6 +52,10 @@ function App() {
           posts={posts} 
           setPosts={setPosts}
           />} />
+          <Route path="/edit/:id" element={< EditPost 
+          posts={posts} 
+          setPosts={setPosts}
+           />}/>
         </Routes>
       </main>
       <Footer />

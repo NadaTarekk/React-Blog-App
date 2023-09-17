@@ -1,5 +1,6 @@
 import axios from "axios";
-import { useNavigate, useParams } from "react-router-dom"
+import { Link, useNavigate, useParams } from "react-router-dom"
+
 
 
 function PostDetail({ posts, setPosts }) {
@@ -23,7 +24,7 @@ function PostDetail({ posts, setPosts }) {
             <p>{post.title}</p>
             <p>{post.datetime}</p>
             <p>{post.body}</p>
-            <button>Edit</button>
+            <Link to={`/edit/${post.id}`}><button>Edit</button></Link>
             <button onClick={handleDelete}>
                 delete</button>
 
