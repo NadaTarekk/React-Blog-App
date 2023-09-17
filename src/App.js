@@ -66,6 +66,7 @@ function App() {
           posts={posts} 
           setPosts={setPosts}
            />}/>
+           <Route path="*" element={<p>Not Found</p>} />
         </Routes>
       </main>
       <Footer />
