@@ -1,11 +1,16 @@
 import { useParams } from "react-router-dom"
 
 
-function PostDetail() {
-    const {id} =useParams()
+function PostDetail({posts}) {
+    const {id} = useParams()
+    const post = posts.find(post => (post.id).toString() === id);
+    
   return (
     <div>
-        <p>{id}</p>
+         <p>{post.title}</p>
+        <p>{post.datetime}</p>
+        <p>{post.body}</p> 
+        
       
     </div>
   )

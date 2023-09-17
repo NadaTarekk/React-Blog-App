@@ -8,34 +8,30 @@ import PostDetail from "./pages/home/PostDetail"
 import { useEffect, useState } from "react";
 import axios from "axios";
 
-
-
-
 function App() {
   const [posts, setPosts] = useState([])
-  const [fetchError, setFetchError] = useState(null)
+  const [fetchError, setFetchError] = useState(false)
   const [isLoading, setIsLoading] = useState(true)
-  const URI = ' http://localhost:3500/posts'
+  const URI = 'http://localhost:3500/posts'
 
- 
 
   useEffect(() => {
-    
+
     const fetchPosts = async () => {
+      
       try {
         const response = await axios.get(URI)
         setPosts(response.data)
-        setFetchError(null)
+        setFetchError(false)
       }
       catch (err) {
         setFetchError(err.message)
       }
       finally {
         setIsLoading(false)
-
       }
     }
-    setTimeout(()=>fetchPosts(),1500)
+    setTimeout(() => fetchPosts(), 1500)
   }, [])
 
   return (
@@ -47,7 +43,7 @@ function App() {
           <Route path="/" element={<Home posts={posts} isLoading={isLoading} fetchError={fetchError} />} />
           <Route path="/about" element={<h1>about</h1>} />
           <Route path="/post" element={<AddPost />} />
-          <Route path="/post/:id" element={<PostDetail />} />
+          <Route path="/post/:id" element={<PostDetail  posts={posts} />} />
         </Routes>
       </main>
       <Footer />

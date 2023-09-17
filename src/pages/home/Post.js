@@ -1,16 +1,13 @@
-import { useNavigate } from "react-router-dom"
+import { Link} from "react-router-dom"
+
 
 
 function Post({post}) {
-    const navigate = useNavigate()
+    //do i need to use isLoading here?
 
-    const handleClick = () =>{
-        navigate(`/post/${post.id}`)
-
-    }
   return (
     <>
-        <h2 onClick={handleClick}>{post.title}</h2>
+        <Link to={`/post/${post.id}`} > <h2>{post.title}</h2> </Link> 
         <p>{post.datetime}</p>
         <p>{post.body}</p>
       

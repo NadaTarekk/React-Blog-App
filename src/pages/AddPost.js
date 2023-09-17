@@ -13,6 +13,7 @@ function AddPost() {
 
         <label>Post:</label>
         <textarea/>
+        <button type="submit">Submit</button>
     </form>
     </>
   )
