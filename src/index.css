@@ -30,7 +30,7 @@ body {
 }
 
 .App {
-  background-color: rgb(176, 223, 219);
+  background-color: rgb(225, 238, 237);
   width: 100%;
   max-width: 800px;
   height: 100vh;
@@ -64,7 +64,7 @@ a {
   ;
   background-color: #efefef;
   margin: 7px;
-  box-shadow: 0px 0px 15px gray;
+  box-shadow: 0px 0px 6px rgb(8, 28, 184);
   padding: 5px;
 }
 
