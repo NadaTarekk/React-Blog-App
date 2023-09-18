@@ -38,7 +38,7 @@ function App() {
   }, [])
     
 
-  //add not found page 
+  //fix the search
 
   return (
     <div className="App">

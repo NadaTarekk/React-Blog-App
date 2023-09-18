@@ -1,12 +1,6 @@
 {
   "posts": [
     {
-      "title": "The Role of AI in Transforming Healthcare",
-      "body": "Artificial Intelligence (AI) is revolutionizing the healthcare industry, offering new possibilities for diagnostics, treatment, and patient care. In this blog post, we will delve into the advancements of AI in healthcare and explore its applications in medical imaging, disease diagnosis, personalized medicine, and more. Discover how AI is transforming the healthcare landscape and shaping the future of patient care.\n\nThese are just fictional examples, but they showcase the structure of a blog post with a title and body content. In actual blog posts, the body content would typically go into much more detail and provide valuable insights, information, or opinions on the chosen topic.",
-      "datetime": "2023",
-      "id": 2
-    },
-    {
       "title": "Getting Started with React",
       "body": "React is a popular JavaScript library for building user interfaces. It allows developers to create reusable UI components and efficiently update the user interface based on changes in application state. With React, you can build interactive web applications that are fast, scalable, and maintainable. In this blog post, we will explore the basics of React and how to get started with building your first React application.",
       "datetime": "2023",
@@ -23,6 +17,18 @@
       "body": "very nice",
       "datetime": "2023",
       "id": 5
+    },
+    {
+      "title": "test",
+      "body": "2023\n\nReact is a popular JavaScript library for building user interfaces. It allows developers to create reusable UI components and efficiently update the user interface based on changes in application state. With React, you can build interactive web applications that are fast, scalable, and maintainable. In this blog post, we will explore the basics of React and how to get started with building your first React application.",
+      "datetime": "2023",
+      "id": 6
+    },
+    {
+      "title": "New post",
+      "body": "Artificial Intelligence (AI) is revolutionizing the healthcare industry, offering new possibilities for diagnostics, treatment, and patient care. In this blog post, we will delve into the advancements of AI in healthcare and explore its applications in medical imaging, disease diagnosis, personalized medicine, and more. Discover how AI is transforming the healthcare landscape and shaping the future of patient care. These are just fictional examples, but they showcase the structure of a blog post with a title and body content. In actual blog posts, the body content would typically go into much more detail and provide valuable insights, information, or opinions on the chosen topic.",
+      "datetime": "2023",
+      "id": 7
     }
   ]
 }
