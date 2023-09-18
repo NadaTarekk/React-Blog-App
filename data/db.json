@@ -17,6 +17,12 @@
       "body": "React is a popular JavaScript library for building user interfaces. It allows developers to create reusable UI components and efficiently update the user interface based on changes in application state. With React, you can build interactive web applications that are fast, scalable, and maintainable. In this blog post, we will explore the basics of React and how to get started with building your first React application.",
       "datetime": "2023",
       "id": 3
+    },
+    {
+      "title": "New Post",
+      "body": "With the rise of remote work, it's important to establish effective routines and practices to stay productive and maintain work-life balance. In this blog post, we will share some valuable tips for boosting productivity while working remotely. From setting up a dedicated workspace to managing distractions and leveraging collaboration tools, these tips will help you make the most out of your remote work experience.",
+      "datetime": "2023",
+      "id": 4
     }
   ]
 }

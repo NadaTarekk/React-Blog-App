@@ -27,9 +27,10 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-} 
+}
+
 .App {
-  background-color:rgb(176, 223, 219); 
+  background-color: rgb(176, 223, 219);
   width: 100%;
   max-width: 800px;
   height: 100vh;
@@ -40,11 +41,11 @@ body {
   border: 1px solid #333;
   box-shadow: 0px 0px 15px gray;
 }
- 
-header{
-  color:bisque;
+
+header {
+  color: white;
   font-size: 39px;
-  width:100%;
+  width: 100%;
   background-color: rgb(89, 87, 116);
 }
 
@@ -52,35 +53,75 @@ li {
   list-style: none;
 }
 
-a{
+a {
   text-decoration: none;
-  color:black
+  color: black
 }
 
-.post{
+.post {
   border-radius: 5px;
-  border: 2px solid rgb(89, 87, 116);;
+  border: 2px solid rgb(89, 87, 116);
+  ;
   background-color: #efefef;
   margin: 7px;
   box-shadow: 0px 0px 15px gray;
   padding: 5px;
 }
 
-.nav{
+.nav {
+  
   padding: 5px;
   width: 100%;
   background-color: #efefef;
   display: flex;
-justify-content: space-between;
-  align-items: center;
+  justify-content: space-between;
+
+
+}
+
+.nav-link {
+
+  gap: 6px;
+  display: flex;
+
+
+}
+
+.search {
+
+  width: 40%;
+}
+
+.nav-li :hover {
+  flex-basis: 100%;
+  color: white;
+  background-color: rgb(89, 87, 116);
+  ;
+}
+
+
+.add-post{
+  
+  display: flex;
+  flex-direction: column;
   
 }
-
-.nav-link{
-  gap:6px;
-  display: flex;
+label, input, textarea{
+  display: block;
 }
 
-.search{
-  width: 40%;
+textarea{
+  width: 400px;
+  height: 190px;
+}
+
+.posts{
+padding:5px;
+ margin:5px;
+ 
+ width: 99%;
+ height: 80vh;
+ overflow-y: auto;
+ overflow-x: hidden;
+ text-align:center;
 }

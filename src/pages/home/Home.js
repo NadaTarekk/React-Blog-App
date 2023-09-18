@@ -6,7 +6,7 @@ function Home({ posts, isLoading, fetchError }) {
    
 // add no posts
     return (
-        <>
+        <div className='posts'>
             {isLoading && <p>Loading posts</p>}
             {fetchError && !isLoading && <p>{`Error: ${fetchError}`}</p>}
             {!fetchError && !isLoading && 
@@ -18,7 +18,7 @@ function Home({ posts, isLoading, fetchError }) {
                 ))}
 
             </ul>}
-        </>
+        </div>
     )
 }
 
