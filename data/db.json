@@ -1,7 +1,7 @@
 {
   "posts": [
     {
-      "title": "The Rolee of AI in Transforming Healthcare",
+      "title": "The Role of AI in Transforming Healthcare",
       "body": "Artificial Intelligence (AI) is revolutionizing the healthcare industry, offering new possibilities for diagnostics, treatment, and patient care. In this blog post, we will delve into the advancements of AI in healthcare and explore its applications in medical imaging, disease diagnosis, personalized medicine, and more. Discover how AI is transforming the healthcare landscape and shaping the future of patient care.\n\nThese are just fictional examples, but they showcase the structure of a blog post with a title and body content. In actual blog posts, the body content would typically go into much more detail and provide valuable insights, information, or opinions on the chosen topic.",
       "datetime": "2023",
       "id": 2
@@ -17,6 +17,12 @@
       "body": "Artificial Intelligence (AI) is revolutionizing the healthcare industry, offering new possibilities for diagnostics, treatment, and patient care. In this blog post, we will delve into the advancements of AI in healthcare and explore its applications in medical imaging, disease diagnosis, personalized medicine, and more. Discover how AI is transforming the healthcare landscape and shaping the future of patient care. These are just fictional examples, but they showcase the structure of a blog post with a title and body content. In actual blog posts, the body content would typically go into much more detail and provide valuable insights, information, or opinions on the chosen topic.",
       "datetime": "2023",
       "id": 4
+    },
+    {
+      "title": "Nice post",
+      "body": "very nice",
+      "datetime": "2023",
+      "id": 5
     }
   ]
 }
